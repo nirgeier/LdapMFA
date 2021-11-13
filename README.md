@@ -9,3 +9,9 @@ Python libraries used in this script:
 - rich: beautiful looking text in the terminal
 - dotenv: save creds in '.env' file
 - ldap3: Perform a connection via ldap
+
+
+# Jenkins_CasC
+```docker
+docker run --name jenkins --rm -p 8080:8080 --env JENKINS_ADMIN_ID=admin --env JENKINS_ADMIN_PASSWORD=password jenkins:jcasc
+```
