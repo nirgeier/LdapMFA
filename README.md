@@ -5,7 +5,7 @@ user: read-only-admin
 password: password
 
 Python libraries used in this script:
-telebot - Perform the AUTH MFA to verify a user
-rich: beautiful looking text in the terminal
-dotenv: save creds in '.env' file
-ldap3: Perform a connection via ldap
+- telebot - Perform the AUTH MFA to verify a user
+- rich: beautiful looking text in the terminal
+- dotenv: save creds in '.env' file
+- ldap3: Perform a connection via ldap
