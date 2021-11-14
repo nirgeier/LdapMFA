@@ -1,0 +1,4 @@
+rich
+ldap3
+python-dotenv
+pyTelegramBotAPI

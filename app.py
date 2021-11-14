@@ -1,13 +1,12 @@
 
-import telebot
-from rich import print
-from rich.console import Console
-from dotenv import load_dotenv
 import os
-from ldap3 import Server, Connection
 import random
 import string
-
+import telebot
+from rich import print
+from dotenv import load_dotenv
+from rich.console import Console
+from ldap3 import Server, Connection
 
 # Constants
 
@@ -18,7 +17,7 @@ PASS = 0
 
 console = Console()
 
-# Aproved users, username: telegram_id
+# Approved users, username: telegram_id
 aproved_users = {
     'read-only-admin': TG_UID,  # Value: Telegram UID (int)
 }
