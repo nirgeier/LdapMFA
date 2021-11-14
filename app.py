@@ -1,4 +1,3 @@
-
 import os
 import random
 import string
@@ -12,7 +11,7 @@ from ldap3 import Server, Connection
 
 load_dotenv()
 TOKEN = os.environ.get("TOKEN")
-TG_UID = int(os.environ.get("TG_UID"))
+TG_UID = os.environ.get("TG_UID")
 PASS = 0
 
 console = Console()

@@ -17,6 +17,17 @@ rich              | https://github.com/willmcgugan/rich           | Rich is a Py
 dotenv            | https://github.com/theskumar/python-dotenv    | Python-dotenv reads key-value pairs from a `.env` file and can set them as environment variables.
 ldap3             | https://github.com/cannatag/ldap3             | Perform a connection via ldap
 
+### HOW-TO
+1. Create a telegram bot with @botfather and save the Token (https://t.me/botfather)
+2. Get your user id (https://t.me/userinfobot)
+
+paste in to '.env' file with your credentials
+```bash
+TOKEN = 'BOT_TOKEN'
+ADMIN = USER_ID
+```
+### Remember '.env' file shuld not be upload with sensetive data and included in '.gitignor'
+
 
 ## Usage:
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/nirgeier/LdapMFA.git)
